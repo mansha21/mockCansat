@@ -32,7 +32,7 @@ export const carrier =[{
 },
 {
     'title': 'Nose',
-    'img' : "assets/images/project/pic2.jpg",
+    'img' : "assets/images/project/Pic2.jpg",
     'text1': `The heatshield is tasked with protecting the probe after the science payload is deployed from the carrier. Our heatshield is designed such it reduces the descent rate of the science payload to 14.27m/s, thereby enabling our probe to record accurate weather data.`
 }
 ];

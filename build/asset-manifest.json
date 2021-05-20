@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mockCansat/static/css/main.5944e420.chunk.css",
+    "main.js": "/mockCansat/static/js/main.96c51c6f.chunk.js",
+    "main.js.map": "/mockCansat/static/js/main.96c51c6f.chunk.js.map",
+    "runtime-main.js": "/mockCansat/static/js/runtime-main.4e1dbd34.js",
+    "runtime-main.js.map": "/mockCansat/static/js/runtime-main.4e1dbd34.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/mockCansat/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.ef608ceb.chunk.js": "/mockCansat/static/js/2.ef608ceb.chunk.js",
+    "static/js/2.ef608ceb.chunk.js.map": "/mockCansat/static/js/2.ef608ceb.chunk.js.map",
+    "static/js/3.32180246.chunk.js": "/mockCansat/static/js/3.32180246.chunk.js",
+    "static/js/3.32180246.chunk.js.map": "/mockCansat/static/js/3.32180246.chunk.js.map",
+    "index.html": "/mockCansat/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/mockCansat/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.5944e420.chunk.css.map": "/mockCansat/static/css/main.5944e420.chunk.css.map",
+    "static/js/2.ef608ceb.chunk.js.LICENSE.txt": "/mockCansat/static/js/2.ef608ceb.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/mockCansat/static/media/fontawesome-webfont.eb68809f.ttf",
+    "static/media/App.css": "/mockCansat/static/media/rocket.a47ab895.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e1dbd34.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.ef608ceb.chunk.js",
+    "static/css/main.5944e420.chunk.css",
+    "static/js/main.96c51c6f.chunk.js"
+  ]
+}

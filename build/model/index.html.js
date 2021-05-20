@@ -1,33 +1,12 @@
+module.exports = `
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset=UTF-8 />
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-        <a href="http://mansha21.github.io/mockCansat/#/" class="navbar-brand">
-            <img src="../assets/images/home/logo.png" width="90" height="40" class="d-inline-block align-top" alt="CanSat">
-        </a>
-        <div class="mr-auto navbar-nav">
-            <a href="http://mansha21.github.io/mockCansat/#/" data-rb-event-key="/" class="nav-link">Home</a>
-            <a href="http://mansha21.github.io/mockCansat/#/mission" data-rb-event-key="/mission" class="nav-link">Mission</a>
-            <a href="http://mansha21.github.io/mockCansat/model" data-rb-event-key="/model" class="nav-link">Model</a>
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Subsystems
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="http://mansha21.github.io/mockCansat/#/electricalcomp">Electrical Component</a>
-                <a class="dropdown-item" href="http://mansha21.github.io/mockCansat/#/carrierview">Carrier Subsystem Design</a>
-                <a class="dropdown-item" href="http://mansha21.github.io/mockCansat/#/payloadview">Science Payload design</a>
-                </div>
-            </div>
-            <a href="http://mansha21.github.io/mockCansat/#/members" data-rb-event-key="members" class="nav-link">Team Members</a></div></nav>
 <script src="three.min.js"></script>
 <script src="GLTFLoader.js"></script>
 <script src="OrbitControls.js"></script>
@@ -85,7 +64,6 @@
     }
     init();
 </script>
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-    <p className="d-inline ">© Copyright 2021. All Rights Reserved by Team A</p><br><div class="text-center d-inline"><ul class="social mb-0 list-inline mt-3"><li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li><li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li><li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li><li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li></ul></div></nav>
 </body>
 </html>
+`;

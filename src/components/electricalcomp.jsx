@@ -52,7 +52,7 @@ class Electricalcomp extends React.Component {
                                                 <p className="p-4 justify-content ">The Arduino Nano is a small, complete, and breadboard-friendly board based on the ATmega328 (Arduino Nano 3.x). It has more or less the same functionality of the Arduino Duemilanove, but in a different package. It lacks only a DC power jack, and works with a Mini-B USB cable instead of a standard one.</p>
                                             </Col>
                                             <Col xs={4}>
-                                                <img alt="image" src={'./assets/images/project/arduino.jpg'} />
+                                                <img alt="image" src={'assets/images/project/arduino.jpg'} />
                                             </Col>
 
                                         </Row>
