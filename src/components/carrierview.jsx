@@ -44,7 +44,7 @@ class Carrierview extends React.Component {
 
                 </Jumbotron>
                 <Container>
-                    <h4 className="text-center text-uppercase m-4 ">Carrier</h4>
+                    <h4 className="text-center text-uppercase m-4 ">Carrier Internal Structure </h4>
                         <div className="bg-white rounded  py-3 px-4 mb-4">
                             {
                                 carrier.map((hs) =>
@@ -57,6 +57,17 @@ class Carrierview extends React.Component {
                                     </Row>
                                 )
                             }
+                        </div>
+                        <h4 className="text-center text-uppercase m-4 ">Wing Structure </h4>
+                        <div className="bg-white rounded  py-3 px-4 mb-4">
+                                <Row>
+                                    <Col xs={12} className="m-4 shadow-lg" >
+                                        <h6 className="text-center m-4">Wing</h6>
+                                        <img alt="image" alt="image" src={'./assets/images/project/wing.jpg'} className="img-fluid rounded heatimg" />
+                                        <div className="text-center m-2 p-4 "><p className="justify-content">High aspect ratio wings allow for effortless gliding, while the forward swept wing gives roll stability, allowing the carrier to remain stable during the helical manoeuvre and also fly smoothly with or without power</p></div>
+                                    </Col>
+                                    </Row>
+                                )
                         </div>
                     
                 </Container>

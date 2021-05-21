@@ -11,17 +11,18 @@ const members=[
             {
                 name: "Kinit Sai",
                 number:"9590911533",
-                img:"assets/images/home/c1.jpg"
+                img:"assets/images/home/m2.jpeg"
             },
             {
                 name: "Vishwajeet Menon",
                 number:"7219305355",
-                img:"assets/images/home/c1.jpg"
+                img:"assets/images/home/m3.jpeg"
             },
             {
+            
                 name: "Anubhav",
                 number:"6362766256",
-                img:"assets/images/home/c1.jpg"
+                img:"assets/images/home/m4.jpeg"
             },
         ]
     },

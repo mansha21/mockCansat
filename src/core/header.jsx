@@ -8,9 +8,9 @@ class Header extends React.Component {
             <Navbar bg="dark" variant="dark" fixed="top" >
                 <Link to="/" className="navbar-brand">
                     <img
-                        src={'assets/images/logo/teamA.jpeg'}
-                        width="90"
-                        height="40"
+                        src={'assets/images/logo/rocket.png'}
+                        width="55"
+                        height="42"
                         className="d-inline-block align-top"
                         alt="CanSat"
                     />
@@ -18,7 +18,7 @@ class Header extends React.Component {
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link">Home</Link>
                     <Link to="/mission" className="nav-link">Mission</Link>
-                    <Nav.Link href="/reactWebApp/model">Model</Nav.Link>
+                    <Nav.Link href="/mockCansat/model">Model</Nav.Link>
                     <NavDropdown title="Subsystems" id="collasible-nav-dropdown">
                         <Link to="/electricalcomp" className="dropdown-item">Electrical Component</Link>
                         <Link to="/carrierview" className="dropdown-item">Carrier Subsystem Design</Link>

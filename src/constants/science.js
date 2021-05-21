@@ -27,12 +27,12 @@ export const probe = [{
 export const carrier =[{
     'title': 'Fuselarge ',
     'img' : "assets/images/project/pic1.jpg",
-    'text1': `The heatshield is tasked with protecting the probe after the science payload is deployed from the carrier. Our heatshield is designed such it reduces the descent rate of the science payload to 14.27m/s, thereby enabling our probe to record accurate weather data.`
+    'text1': `The fuselarge, holding the crucial payload and the essential electronics is made of 5mm thick ABS frames with Carbon Spars supporting the whole structure providing it with good strength to hold its integrity during the flight. `
 
 },
 {
     'title': 'Nose',
     'img' : "assets/images/project/Pic2.jpg",
-    'text1': `The heatshield is tasked with protecting the probe after the science payload is deployed from the carrier. Our heatshield is designed such it reduces the descent rate of the science payload to 14.27m/s, thereby enabling our probe to record accurate weather data.`
+    'text1': `The nose cone the most important component as it houses the main propeller motor which propels the entire carrier during the flight, also it hols the main batteries which power the entire carrier electronics and the propeller motor. It is made is ABS with support frames holding the and giving the entire structure good strength to perform the maneuver.   `
 }
 ];

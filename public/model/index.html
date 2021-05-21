@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
         <a href="http://mansha21.github.io/mockCansat/#/" class="navbar-brand">
-            <img src="../assets/images/home/logo.png" width="90" height="40" class="d-inline-block align-top" alt="CanSat">
+            <img src="../assets/images/logo/rocket.png" width="55" height="42" class="d-inline-block align-top" alt="CanSat">
         </a>
         <div class="mr-auto navbar-nav">
             <a href="http://mansha21.github.io/mockCansat/#/" data-rb-event-key="/" class="nav-link">Home</a>
@@ -36,7 +36,7 @@
     let scene, camera, renderer;
     function init() {
         scene = new THREE.Scene();
-        scene.background = new THREE.Color(0x000000);
+        scene.background = new THREE.Color("rgb(136, 136,136)");
         camera = new THREE.PerspectiveCamera(1 ,window.innerWidth/window.innerHeight,1,5000);
         camera.rotation.y = 45/180*Math.PI;
         camera.position.x = 500;
@@ -74,7 +74,7 @@
         var loader = new THREE.GLTFLoader();
         loader.load('scene.gltf', function(gltf){
             model = gltf.scene.children[0];
-            model.scale.set(1,1,1);
+            model.scale.set(25,25,25);
             scene.add(gltf.scene);
             animate();
         });

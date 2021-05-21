@@ -15,7 +15,7 @@
 .landing{
   background: url('./assets/images/home/rocket.gif');
   background-size: cover;
-  margin-bottom: 0px !important;
+  margin-bottom: -1% !important;
 }
 .team{
   background: url('./assets/images/team/banner.jpg');
@@ -44,6 +44,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.img-hover-zoom--quick-zoom:hover img{
+  transform: scale(1.1);
 }
 
 
