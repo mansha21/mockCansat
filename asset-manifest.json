@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mockCansat/static/css/main.5944e420.chunk.css",
-    "main.js": "/mockCansat/static/js/main.ff9704bd.chunk.js",
-    "main.js.map": "/mockCansat/static/js/main.ff9704bd.chunk.js.map",
+    "main.js": "/mockCansat/static/js/main.b57a52c4.chunk.js",
+    "main.js.map": "/mockCansat/static/js/main.b57a52c4.chunk.js.map",
     "runtime-main.js": "/mockCansat/static/js/runtime-main.4e1dbd34.js",
     "runtime-main.js.map": "/mockCansat/static/js/runtime-main.4e1dbd34.js.map",
     "static/css/2.ef9168ec.chunk.css": "/mockCansat/static/css/2.ef9168ec.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.7a8d64fb.chunk.js",
     "static/css/main.5944e420.chunk.css",
-    "static/js/main.ff9704bd.chunk.js"
+    "static/js/main.b57a52c4.chunk.js"
   ]
 }
