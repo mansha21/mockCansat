@@ -19,13 +19,13 @@ class Mission extends React.Component {
                 </Jumbotron>
 
                 <Container className="text-center mt-5">
-                    <h4 class="text-center text-uppercase">Our Mission</h4><hr class="dashed"></hr>
+                    <h4 className="text-center text-uppercase">Our Mission</h4><hr class="dashed"></hr>
                     <Row>
                         {
                             missionconst.map((data) => 
                             <Transition in={true} timeout={900} appear>
                                 {(state) => (
-                                    <Col xl={4} xs={4} className={`d-flex p-3 ${data.class}`} style={{
+                                    <Col xl={4} xs={12} md={6} className={`d-flex p-3 ${data.class}`} style={{
                                         ...defaultStyle,
                                         ...transitionStyles[state],
                                         transition: `900ms ease-in`

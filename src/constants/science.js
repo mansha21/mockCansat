@@ -1,7 +1,7 @@
 export const science = [{
     'img' : "assets/images/science/ps_top.png",
     'title' : 'Probe & Heat Shield - Top View',
-    'class' : 'offset-2'
+    'class' : 'offset-lg-2'
 },
 {
     'img' : "assets/images/science/ps_side.png",
@@ -18,7 +18,7 @@ export const heatsh =[{
 export const probe = [{
     'img' : "assets/images/science/probe1.png",
     'title' : 'Probe - Front View',
-    'class' : 'offset-2'
+    'class' : 'offset-lg-2'
 },
 {
     'img' : "assets/images/science/probe2.png",

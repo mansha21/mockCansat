@@ -15,12 +15,12 @@
 .landing{
   background: url('./assets/images/home/rocket.gif');
   background-size: cover;
-  margin-bottom: -1% !important;
+  margin-bottom: -5% !important;
 }
 .team{
   background: url('./assets/images/team/banner.jpg');
   background-size: cover;
-  padding: 10em !important;
+  padding: 13em !important;
 }
 .App-header {
   background-color: #282c34;
@@ -49,10 +49,6 @@
   transform: scale(1.1);
 }
 
-
-hr.dashed {
-  /* border-top: 2px dashed #999; */
-}
 .subcardimg img {height: 35vh;}
 #multi-item-example .carousel-indicators li {background-color: #666;}
 .homeslider img{
@@ -62,18 +58,18 @@ hr.dashed {
 .electrical{
   background: url("./assets/images/project/ebanner.jpg");
   background-size: cover;
-  padding: 10em !important;
+  padding: 12em !important;
 }
 .carrier{
   background: url("./assets/images/project/carbanner.jpg");
   background-size: cover;
-  padding: 10em !important;
+  padding: 14em !important;
 
 }
 .payload{
   background: url("./assets/images/project/banner_2.PNG");
   background-size: cover;
-  padding: 11em !important;
+  padding: 14em !important;
 }
 
 
@@ -81,12 +77,21 @@ hr.dashed {
 .mission {
   background: url("./assets/images/mission/banner.jpg");
   background-size: cover;
-  padding: 30vh !important;
+  padding: 14em !important;
 }
 .videocs {
-  height: 55%;
+  height: 100%;
   width: 100%;
 }
+
+.vid-border{
+  position: relative;
+  height: 80%;
+  width: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
  .justify-content {text-align: justify;} 
 .scienceimg {
   height: 60vh !important;
@@ -94,3 +99,18 @@ hr.dashed {
 }
 .heatimg{width:50%;float: left; margin-right: 5%;}
 p{font-size: 16px !important;}
+
+.jumbotron{
+  /* background: no-repeat center center;  */
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.container-fluid { padding: 0px !important;}
+.dropdown-item.active, .dropdown-item:active, .dropdown-item.active:hover, .dropdown-item:hover {
+  color:rgba(255, 255, 255, 0.75) !important;
+  background-color:#343a40 !important;
+}
+.dropdown-menu {background-color: #6f6f6f !important; padding: 0.5em !important;}

@@ -34,7 +34,7 @@ class Teamview extends React.Component {
             <Transition in={true} timeout={duration} appear>
             {(state) => (
                 
-                <Col xl={3} xs={3} className="mb-3 d-flex" style={{
+                <Col xl={3} xs={12} md={6} className="mb-3 d-flex" style={{
                     ...defaultStyle,
                     ...transitionStyles[state],
                     transition: `${delay}ms ease-in`

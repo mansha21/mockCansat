@@ -48,7 +48,7 @@ class Carrierview extends React.Component {
                     <Row>
                         {
                             science.map((link) =>
-                                <Col xs={4} className={link.class}>
+                                <Col xs={6} xl={4} className={link.class}>
                                     <div className="bg-white rounded shadow-sm py-3 px-4 mb-4">
                                         <img alt="images"  src={link.img} className="img-fluid rounded" />
                                         <div className="text-center m-2"><b>{link.title}</b></div>
@@ -88,7 +88,7 @@ class Carrierview extends React.Component {
                                     {
                                         probe.map((ps) =>
 
-                                            <Col xs={4} className={ps.class}>
+                                            <Col xs={12} xl={4} className={ps.class}>
                                                 <h6 className="text-center m-2">{ps.title}</h6>
                                                 <img alt="images"  src={ps.img} className="img-fluid rounded scienceimg" />
                                             </Col>

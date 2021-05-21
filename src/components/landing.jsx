@@ -67,15 +67,17 @@ class Landing extends React.Component {
                                                 <div className="bg-white rounded shadow-sm py-5 px-4">
 
 
-                                                <Row className="mt-4 p-3">
-                                                    <Col xs={12}>
-                                                    <h6 className="text-center text-uppercase">CONOPS</h6>
-                                                        <img alt="images"  src={'./assets/images/home/conops.jpeg'} height="60%" width="100%" className="p-4 shadow-lg m-3 border border-dark"/>
+                                                <Row className="p-3">
+                                                    <Col xs={12} className="mb-5">
+                                                    <h6 className="text-center text-uppercase mb-3">CONOPS</h6>
+                                                        <img alt="images"  src={'./assets/images/home/conops.jpeg'} height="60%" width="100%" className="shadow-lg border border-dark img-fluid"/>
                                                     </Col>
                                                     <Col xs={12}>
-                                                        <video className="videocs" controls>
-                                                            <source src={'./assets/video/animation.mp4'} type="video/mp4"></source>
-                                                        </video>
+                                                        <div className="vid-border rounded">
+                                                            <video className="videocs" controls={true} poster={'./assets/images/home/video.jpg'}>
+                                                                <source src={'./assets/video/animation.mp4'} type="video/mp4"></source>
+                                                            </video>
+                                                        </div>
                                                     </Col>
                                                 </Row>
                                             </div>

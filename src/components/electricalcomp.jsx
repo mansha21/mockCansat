@@ -19,8 +19,7 @@ class Electricalcomp extends React.Component {
 
         return (
             <div>
-                <Jumbotron fluid className="electrical">
-                    <Container className="text-center">
+                <Jumbotron fluid className="electrical text-center">
                         <Transition in={true} timeout={duration} appear id="trans1">
                             {(state) => (
                                 <div
@@ -29,12 +28,11 @@ class Electricalcomp extends React.Component {
                                         ...transitionStyles[state]
                                     }}
                                 >
-                                    <h3 className="p-5 bg-light shadow-lg border border-dark rounded-pill">Electrical Component Subsystem</h3>
+                                    <h3 className="p-3 d-inline-block bg-light shadow-lg border border-dark rounded-pill">Electrical Component Subsystem</h3>
                                 </div>
                             )}
                         </Transition>
                         <br />
-                    </Container>
                 </Jumbotron>
                 <Container>
                     <Row>
@@ -47,11 +45,11 @@ class Electricalcomp extends React.Component {
 
                                     <Col xs={12} className="mb-3 d-flex">
                                         <Row className="border m-2 p-4">
-                                            <Col xs={8} className="p-2">
+                                            <Col xs={12} xl={8}  className="p-2">
                                                 <h5 className="pl-4 pb-3 ">Arduino nano</h5>
                                                 <p className="p-4 justify-content ">The Arduino Nano is a small, complete, and breadboard-friendly board based on the ATmega328 (Arduino Nano 3.x). It has more or less the same functionality of the Arduino Duemilanove, but in a different package. It lacks only a DC power jack, and works with a Mini-B USB cable instead of a standard one.</p>
                                             </Col>
-                                            <Col xs={4}>
+                                            <Col xs={4} xs={12}>
                                                 <img alt="image" src={'assets/images/project/ARDUINO.jpg'} />
                                             </Col>
 
@@ -69,10 +67,10 @@ class Electricalcomp extends React.Component {
                                         elecomp.map((link) =>
                                             <div className="carousel-item">
                                                 <Row className="border m-2 p-4">
-                                                    <Col xs={3}>
+                                                    <Col xl={3} xs={12}>
                                                         <img alt="image" src={link.icon} className="float-right" />
                                                     </Col>
-                                                    <Col xs={8}>
+                                                    <Col xl={8} xs={12}>
                                                         <h5 className="p-2">{link.name}</h5>
                                                         <p className="p-2 justify-content">{link.text} </p>
                                                     </Col>
@@ -92,12 +90,12 @@ class Electricalcomp extends React.Component {
                                 <Row>
                                     {
                                         batteries.map((link) =>
-                                            <Col xs={6} className="mb-3 d-flex">
+                                            <Col xs={12} xl={6} md={6} className="mb-3 d-flex">
                                                 <Row className="border m-2">
-                                                    <Col xs={4} className="p-2 rounded mt-4">
+                                                    <Col xl={4} xs={12} className="p-2 rounded mt-4">
                                                         <img alt="image" src={link.icon} />
                                                     </Col>
-                                                    <Col xs={8}>
+                                                    <Col xl={8} xs={12}>
                                                         <h6 className="p-2">{link.name}</h6>
                                                         <p className="p-2 justify-content">{link.text}</p>
                                                     </Col>
@@ -114,7 +112,7 @@ class Electricalcomp extends React.Component {
                                 <Row>
                                     {
                                         elecompaccess.map((link) =>
-                                            <Col xs={6} className="mb-3 d-flex">
+                                            <Col xs={12} xl={6} md={6} className="mb-3 d-flex">
                                                 <Card className="flex-fill subcardimg shadow-lg">
                                                     <Card.Img variant="top" src={link.icon} className="img-fluid" />
                                                     <Card.Body>
@@ -133,7 +131,7 @@ class Electricalcomp extends React.Component {
                                 <Row>
                                     {
                                         pcb.map((link) =>
-                                            <Col xs={6} className="mb-3 d-flex shadow-lg">
+                                            <Col xl={6} xs={12} className="mb-3 d-flex shadow-lg">
                                                 <Card className="flex-fill subcardimg">
                                                     <Card.Img variant="top" src={link.icon} className="img-fluid"  />
                                                     <Card.Body>

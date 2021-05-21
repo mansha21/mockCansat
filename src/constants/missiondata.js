@@ -51,7 +51,7 @@ const missionconst = [
         
         
         `,
-        'class': 'offset-2'
+        'class': 'offset-lg-2'
     },
     {
         'title': 'Stage 5',
